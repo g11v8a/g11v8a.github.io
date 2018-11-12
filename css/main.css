@@ -747,6 +747,7 @@ button {
   -webkit-transform: scale(1.0);
   -ms-transform: scale(1.0);
   transform: scale(1.0);
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   position: fixed;
   top: 0;
@@ -786,7 +787,7 @@ button {
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
     /*background-image: url("/images/bg.jpg");*/
-    background-image: url("https://source.unsplash.com/1920x1080/?nature,water,mountain");
+    background-image: url("https://source.unsplash.com/1280x720/?nature,water,mountain,forest");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
